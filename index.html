@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>CetakKarya Studio | Jasa Digital & Offset Printing Palangka Raya</title>
+    <meta name="description" content="Wujudkan kebutuhan cetak bisnis dan personal Anda di Palangka Raya. Layanan digital printing, cetak banner, kartu nama, brosur, dan stiker dengan kualitas premium.">
+    <meta name="keywords" content="Percetakan Palangka Raya, Digital printing Palangka Raya, Jasa cetak banner Palangka Raya, Cetak kartu nama Palangka Raya, Cetak brosur dan flyer, Cetak stiker produk, Jasa percetakan untuk UMKM">
+    <meta name="author" content="CetakKarya Studio">
+    <link rel="canonical" href="https://www.cetakkaryastudio.com/">
+
+    <head>
+    <meta charset="UTF-8">
+    <title>Judul Website Anda</title>
+    <!-- Kode Favicon PNG/JPG -->
+    <link rel="icon" type="image/png" href="gambarasset/favicon.ico">
+</head>
+
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CetakKarya Studio | Profesional Printing Palangka Raya">
+    <meta property="og:description" content="Solusi cetak untuk memperkuat branding dan mempromosikan bisnis Anda dengan proses yang praktis.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CetakKarya Studio",
+      "image": "https://images.unsplash.com/photo-1562664377-709f2c337eb2?auto=format&fit=crop&w=800&q=80",
+      "@id": "",
+      "url": "https://www.cetakkaryastudio.com",
+      "telephone": "0895-2960-5601",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Tjilik Riwut",
+        "addressLocality": "Palangka Raya",
+        "addressRegion": "Kalimantan Tengah",
+        "postalCode": "73111",
+        "addressCountry": "ID"
+      },
+      "priceRange": "$$",
+      "description": "Layanan percetakan digital dan offset profesional di Palangka Raya."
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        warmWhite: '#FFF8F6',
+                        vibrantOrange: '#FF5733',
+                        electricPurple: '#7B2FFF',
+                        deepPurple: '#4A0EBF',
+                        darkPurple: '#1A0050',
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 20px rgba(26, 0, 80, 0.05)',
+                        'hover': '0 10px 25px rgba(123, 47, 255, 0.15)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #FFF8F6;
+            color: #1A0050;
+        }
+        /* Reveal Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FFF8F6;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #7B2FFF;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4A0EBF;
+        }
+        /* Hide scrollbar for horizontal categories but keep functionality */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        /* Accordion transition */
+        .accordion-content {
+            transition: max-height 0.3s ease-out, padding 0.3s ease;
+            max-height: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-vibrantOrange text-warmWhite text-xs sm:text-sm py-2 px-4 text-center font-medium">
+        Konsultasi gratis spesifikasi bahan & ukuran untuk kebutuhan bisnis Anda. <a href="https://wa.me/6289529605601" target="_blank" class="underline hover:text-white transition">Hubungi Kami</a>
+    </div>
+
+    <!-- Main Navigation -->
+    <header id="navbar" class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200 transition-all duration-300">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-2 group">
+                    <img src="gambarasset/logonew.webp" alt="Logo CetakKarya" class="h-10 w-auto object-contain transform group-hover:scale-105 transition duration-300">
+                    <span class="text-2xl font-extrabold tracking-tight text-[#FF5733]">CetakKarya</span>
+                </a>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden lg:flex items-center gap-8 font-medium text-sm">
+                    <a href="#" class="text-vibrantOrange relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-0.5 after:bg-vibrantOrange">Beranda</a>
+                    <a href="#galeri" class="text-darkPurple hover:text-vibrantOrange transition">Portofolio</a>
+                    <a href="#katalog" class="text-darkPurple hover:text-vibrantOrange transition">Produk</a>
+                    <a href="#layanan" class="text-darkPurple hover:text-vibrantOrange transition">Layanan</a>
+                    <a href="#cara-pesan" class="text-darkPurple hover:text-vibrantOrange transition">Cara Pesan</a>
+                    <a href="#faq" class="text-darkPurple hover:text-vibrantOrange transition">FAQ</a>
+                </nav>
+
+                <!-- CTA & Mobile Toggle -->
+                <div class="flex items-center gap-4">
+                    <a href="https://wa.me/6289529605601" target="_blank" class="hidden md:inline-flex items-center justify-center bg-vibrantOrange text-warmWhite px-6 py-2.5 rounded-full font-semibold hover:bg-orange-600 transition shadow-lg shadow-orange-500/30 transform hover:-translate-y-0.5">
+                        Pesan Sekarang
+                    </a>
+                    <button id="mobile-menu-btn" class="lg:hidden text-darkPurple text-2xl focus:outline-none">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-warmWhite border-t border-gray-200 absolute w-full left-0 shadow-xl">
+            <div class="flex flex-col px-4 py-6 gap-4 font-medium">
+                <a href="#" class="text-vibrantOrange pb-2 border-b border-gray-200">Beranda</a>
+                <a href="#galeri" class="text-darkPurple hover:text-electricPurple pb-2 border-b border-gray-200">Portofolio</a>
+                <a href="#katalog" class="text-darkPurple hover:text-electricPurple pb-2 border-b border-gray-200">Produk</a>
+                <a href="#layanan" class="text-darkPurple hover:text-electricPurple pb-2 border-b border-gray-200">Layanan</a>
+                <a href="#cara-pesan" class="text-darkPurple hover:text-electricPurple pb-2 border-b border-gray-200">Cara Pesan</a>
+                <a href="#faq" class="text-darkPurple hover:text-electricPurple pb-2 border-b border-gray-200">FAQ</a>
+                <a href="https://wa.me/6289529605601" target="_blank" class="bg-vibrantOrange text-warmWhite text-center px-6 py-3 rounded-full mt-2 font-semibold">Pesan Sekarang</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-darkPurple overflow-hidden py-16 lg:py-24">
+        <!-- Abstract Background Elements -->
+        <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-to-br from-deepPurple/50 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-tr from-electricPurple/20 to-transparent rounded-full blur-3xl translate-y-1/3 -translate-x-1/4 pointer-events-none"></div>
+
+        <div class="container mx-auto px-4 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="max-w-2xl reveal active">
+                    <span class="inline-block py-1 px-3 rounded-full bg-electricPurple/20 text-electricPurple text-sm font-bold tracking-wider mb-6 border border-electricPurple/30">
+                        STUDIO PERCETAKAN PALANGKA RAYA
+                    </span>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-warmWhite leading-tight mb-6">
+                        KAMI MEWUJUDKAN <span class="text-vibrantOrange relative inline-block">IDE<svg class="absolute w-full h-3 -bottom-1 left-0 text-vibrantOrange" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="4" fill="transparent"/></svg></span> ANDA MENJADI NYATA.
+                    </h1>
+                    <p class="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed">
+                        Wujudkan kebutuhan cetak bisnis, promosi, dan personal Anda dengan pilihan produk yang beragam serta proses pemesanan yang praktis.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 mb-10">
+                        <a href="#katalog" class="inline-flex items-center justify-center bg-vibrantOrange text-warmWhite px-8 py-3.5 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-lg shadow-orange-500/30">
+                            Lihat Produk
+                        </a>
+                        <a href="https://wa.me/6289529605601" target="_blank" class="inline-flex items-center justify-center bg-transparent border-2 border-electricPurple text-warmWhite px-8 py-3.5 rounded-full font-bold text-lg hover:bg-electricPurple/20 transition">
+                            Minta Penawaran
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-6 text-sm text-gray-300 font-medium border-t border-gray-700/50 pt-6 mt-8">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-electricPurple"></i> Pilihan Produk Beragam
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-electricPurple"></i> Konsultasi Spesifikasi
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-electricPurple"></i> Proses Pemesanan Praktis
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="relative reveal active lg:justify-self-end">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-electricPurple to-vibrantOrange rounded-2xl transform rotate-3 scale-105 opacity-30 blur-lg"></div>
+                    <img src="gambarasset/Hero_Section.webp" alt="Mesin Digital Printing Profesional" class="relative rounded-2xl shadow-2xl border border-gray-700/50 w-full object-cover h-[400px] md:h-[500px]">
+                    
+                    <!-- Floating Badge -->
+                    <div class="absolute -bottom-6 -left-6 bg-warmWhite text-darkPurple p-4 rounded-xl shadow-xl flex items-center gap-4 animate-bounce" style="animation-duration: 3s;">
+                        <div class="bg-vibrantOrange/10 p-3 rounded-full text-vibrantOrange">
+                            <i class="fa-solid fa-medal text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-sm">Kualitas Premium</p>
+                            <p class="text-xs text-gray-600">Hasil Cetak Tajam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. Portofolio dipindah ke awal sebelum produk -->
+    <section class="py-20 bg-gray-50 border-b border-gray-200" id="galeri">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 reveal">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-darkPurple mb-4">Galeri Hasil Cetak</h2>
+                <p class="text-gray-600">Beberapa contoh portofolio produk yang kami kerjakan untuk berbagai kebutuhan.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 reveal">
+                <!-- Img 1 -->
+                <div class="group relative overflow-hidden rounded-xl bg-gray-200 aspect-square">
+                    <img src="gambarasset/Galeri1.webp" alt="Cetak Kartu Nama Premium" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkPurple/90 via-darkPurple/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-vibrantOrange font-bold text-sm mb-1">Kartu Nama</span>
+                        <h4 class="text-warmWhite font-bold text-lg">Cetak Kartu Nama</h4>
+                    </div>
+                </div>
+                <!-- Img 2 -->
+                <div class="group relative overflow-hidden rounded-xl bg-gray-200 aspect-square">
+                    <img src="gambarasset/Galeri2.webp" alt="Cetak Banner Event" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkPurple/90 via-darkPurple/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-vibrantOrange font-bold text-sm mb-1">Cetak Luar Ruang</span>
+                        <h4 class="text-warmWhite font-bold text-lg">Banner / Spanduk</h4>
+                    </div>
+                </div>
+                <!-- Img 3 -->
+                <div class="group relative overflow-hidden rounded-xl bg-gray-200 aspect-square">
+                    <img src="gambarasset/Galeri3.webp" alt="Cetak Brosur Lipat" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-darkPurple/90 via-darkPurple/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <span class="text-vibrantOrange font-bold text-sm mb-1">Materi Promosi</span>
+                        <h4 class="text-warmWhite font-bold text-lg">Brosur Perusahaan</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk Katalog -->
+    <section class="py-20 bg-warmWhite" id="katalog">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-darkPurple mb-4">Produk Cetak Populer</h2>
+                <p class="text-gray-600 text-lg">Temukan solusi cetak untuk memperkuat branding, mempromosikan bisnis, dan memenuhi kebutuhan acara Anda.</p>
+            </div>
+
+            <!-- Grid Catalog -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1 group reveal">
+                    <div class="relative h-56 overflow-hidden bg-gray-100">
+                        <img src="gambarasset/produk1.webp" alt="Kartu Nama" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute top-4 right-4 bg-vibrantOrange text-warmWhite text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                            Terlaris
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-darkPurple mb-2">Kartu Nama Premium</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Cetak kartu nama dengan berbagai pilihan bahan eksklusif. Tampil profesional di setiap pertemuan.</p>
+                        <div class="flex items-center justify-between mt-auto">
+                            <div>
+                                <p class="text-xs text-gray-500 font-medium">Mulai dari</p>
+                                <p class="text-lg font-extrabold text-electricPurple">Tanya Harga</p>
+                            </div>
+                            <a href="https://wa.me/6289529605601" target="_blank" class="bg-darkPurple text-warmWhite p-3 rounded-xl hover:bg-vibrantOrange transition-colors group-hover:shadow-lg inline-flex">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1 group reveal">
+                    <div class="relative h-56 overflow-hidden bg-gray-100">
+                        <img src="gambarasset/produk2.webp" alt="Flyer dan Pamflet" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-darkPurple mb-2">Flyer & Pamflet</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Media promosi efektif untuk menjangkau audiens lokal. Tersedia berbagai ukuran standar.</p>
+                        <div class="flex items-center justify-between mt-auto">
+                            <div>
+                                <p class="text-xs text-gray-500 font-medium">Mulai dari</p>
+                                <p class="text-lg font-extrabold text-electricPurple">Tanya Harga</p>
+                            </div>
+                            <a href="https://wa.me/6289529605601" target="_blank" class="bg-darkPurple text-warmWhite p-3 rounded-xl hover:bg-vibrantOrange transition-colors group-hover:shadow-lg inline-flex">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1 group reveal">
+                    <div class="relative h-56 overflow-hidden bg-gray-100">
+                        <img src="gambarasset/produk3.webp" alt="Brosur Perusahaan" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-darkPurple mb-2">Brosur Lipat</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Sampaikan informasi produk atau profil perusahaan secara lengkap dan elegan.</p>
+                        <div class="flex items-center justify-between mt-auto">
+                            <div>
+                                <p class="text-xs text-gray-500 font-medium">Mulai dari</p>
+                                <p class="text-lg font-extrabold text-electricPurple">Tanya Harga</p>
+                            </div>
+                            <a href="https://wa.me/6289529605601" target="_blank" class="bg-darkPurple text-warmWhite p-3 rounded-xl hover:bg-vibrantOrange transition-colors group-hover:shadow-lg inline-flex">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1 group reveal">
+                    <div class="relative h-56 overflow-hidden bg-gray-100">
+                        <img src="gambarasset/produk4.webp" alt="Banner dan Spanduk" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute top-4 right-4 bg-electricPurple text-warmWhite text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                            Bisa Cepat
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-darkPurple mb-2">Banner & Spanduk</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Cetak outdoor dengan bahan tahan cuaca. Ideal untuk toko, event, atau petunjuk arah.</p>
+                        <div class="flex items-center justify-between mt-auto">
+                            <div>
+                                <p class="text-xs text-gray-500 font-medium">Mulai dari</p>
+                                <p class="text-lg font-extrabold text-electricPurple">Tanya Harga</p>
+                            </div>
+                            <a href="https://wa.me/6289529605601" target="_blank" class="bg-darkPurple text-warmWhite p-3 rounded-xl hover:bg-vibrantOrange transition-colors group-hover:shadow-lg inline-flex">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1 group reveal">
+                    <div class="relative h-56 overflow-hidden bg-gray-100">
+                        <img src="gambarasset/produk5.webp" alt="Poster Promosi" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-darkPurple mb-2">Poster High-Res</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Tampilkan visual menawan dengan resolusi tinggi. Cocok untuk dekorasi, promosi, atau info event.</p>
+                        <div class="flex items-center justify-between mt-auto">
+                            <div>
+                                <p class="text-xs text-gray-500 font-medium">Mulai dari</p>
+                                <p class="text-lg font-extrabold text-electricPurple">Tanya Harga</p>
+                            </div>
+                            <a href="https://wa.me/6289529605601" target="_blank" class="bg-darkPurple text-warmWhite p-3 rounded-xl hover:bg-vibrantOrange transition-colors group-hover:shadow-lg inline-flex">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1 group reveal">
+                    <div class="relative h-56 overflow-hidden bg-gray-100">
+                        <img src="gambarasset/produk6.webp" alt="Stiker Produk" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-darkPurple mb-2">Stiker Label Kemasan</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Percantik kemasan produk Anda dengan stiker custom berkualitas (Vinyl, Bontax, Transparan).</p>
+                        <div class="flex items-center justify-between mt-auto">
+                            <div>
+                                <p class="text-xs text-gray-500 font-medium">Mulai dari</p>
+                                <p class="text-lg font-extrabold text-electricPurple">Tanya Harga</p>
+                            </div>
+                            <a href="https://wa.me/6289529605601" target="_blank" class="bg-darkPurple text-warmWhite p-3 rounded-xl hover:bg-vibrantOrange transition-colors group-hover:shadow-lg inline-flex">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12 reveal">
+                <a href="https://wa.me/6289529605601" target="_blank" class="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-darkPurple text-darkPurple px-8 py-3 rounded-full font-bold hover:bg-darkPurple hover:text-warmWhite transition-all duration-300">
+                    Konsultasi Semua Produk <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan dipindah setelah katalog agar berurutan: Portofolio -> Produk -> Layanan -->
+    <section class="py-8 bg-gray-50 border-t border-b border-gray-200" id="layanan">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="flex overflow-x-auto pb-4 pt-2 gap-4 no-scrollbar items-center md:justify-center">
+                <!-- Category 1 -->
+                <div class="flex flex-col items-center min-w-[100px] group">
+                    <div class="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-soft flex items-center justify-center text-darkPurple group-hover:bg-electricPurple group-hover:text-warmWhite transition-all duration-300 transform group-hover:-translate-y-1 mb-2">
+                        <i class="fa-solid fa-briefcase text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-semibold text-center text-darkPurple group-hover:text-electricPurple transition">Cetak<br>Bisnis</span>
+                </div>
+                <!-- Category 2 -->
+                <div class="flex flex-col items-center min-w-[100px] group">
+                    <div class="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-soft flex items-center justify-center text-darkPurple group-hover:bg-electricPurple group-hover:text-warmWhite transition-all duration-300 transform group-hover:-translate-y-1 mb-2">
+                        <i class="fa-solid fa-print text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-semibold text-center text-darkPurple group-hover:text-electricPurple transition">Cetak<br>Digital</span>
+                </div>
+                <!-- Category 3 -->
+                <div class="flex flex-col items-center min-w-[100px] group">
+                    <div class="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-soft flex items-center justify-center text-darkPurple group-hover:bg-electricPurple group-hover:text-warmWhite transition-all duration-300 transform group-hover:-translate-y-1 mb-2">
+                        <i class="fa-solid fa-layer-group text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-semibold text-center text-darkPurple group-hover:text-electricPurple transition">Cetak<br>Offset</span>
+                </div>
+                <!-- Category 4 -->
+                <div class="flex flex-col items-center min-w-[100px] group">
+                    <div class="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-soft flex items-center justify-center text-darkPurple group-hover:bg-electricPurple group-hover:text-warmWhite transition-all duration-300 transform group-hover:-translate-y-1 mb-2">
+                        <i class="fa-solid fa-id-card text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-semibold text-center text-darkPurple group-hover:text-electricPurple transition">Kartu<br>Nama</span>
+                </div>
+                <!-- Category 5 -->
+                <div class="flex flex-col items-center min-w-[100px] group">
+                    <div class="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-soft flex items-center justify-center text-darkPurple group-hover:bg-electricPurple group-hover:text-warmWhite transition-all duration-300 transform group-hover:-translate-y-1 mb-2">
+                        <i class="fa-solid fa-file-lines text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-semibold text-center text-darkPurple group-hover:text-electricPurple transition">Brosur &<br>Flyer</span>
+                </div>
+                <!-- Category 6 -->
+                <div class="flex flex-col items-center min-w-[100px] group">
+                    <div class="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-soft flex items-center justify-center text-darkPurple group-hover:bg-electricPurple group-hover:text-warmWhite transition-all duration-300 transform group-hover:-translate-y-1 mb-2">
+                        <i class="fa-solid fa-images text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-semibold text-center text-darkPurple group-hover:text-electricPurple transition">Banner &<br>Spanduk</span>
+                </div>
+                <!-- Category 7 -->
+                <div class="flex flex-col items-center min-w-[100px] group">
+                    <div class="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-soft flex items-center justify-center text-darkPurple group-hover:bg-electricPurple group-hover:text-warmWhite transition-all duration-300 transform group-hover:-translate-y-1 mb-2">
+                        <i class="fa-solid fa-tags text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-semibold text-center text-darkPurple group-hover:text-electricPurple transition">Stiker &<br>Label</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-deepPurple relative overflow-hidden">
+        <div class="absolute -right-20 -top-20 w-64 h-64 bg-vibrantOrange rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
+        <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-electricPurple rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
+
+        <div class="container mx-auto px-4 lg:px-8 relative z-10">
+            <div class="bg-darkPurple/40 backdrop-blur-md border border-white/10 rounded-3xl p-8 lg:p-12 shadow-2xl reveal">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-extrabold text-warmWhite mb-6 leading-tight">Solusi Cetak untuk <span class="text-vibrantOrange">Kebutuhan Bisnis</span> Anda.</h2>
+                        <p class="text-gray-300 mb-8 text-lg">Kami memahami bahwa setiap proyek cetak membutuhkan ketelitian. Kami hadir tidak hanya sebagai tempat mencetak, tetapi mitra konsultasi visual Anda.</p>
+                        <a href="https://wa.me/6289529605601" target="_blank" class="inline-block bg-vibrantOrange text-warmWhite px-8 py-3 rounded-full font-bold hover:bg-orange-600 transition shadow-lg shadow-orange-500/30">
+                            Konsultasi Sekarang
+                        </a>
+                    </div>
+                    
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <!-- Benefit Item -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-electricPurple/20 flex items-center justify-center text-electricPurple shrink-0 border border-electricPurple/30">
+                                <i class="fa-solid fa-boxes-stacked text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-warmWhite font-bold mb-1">Beragam Pilihan</h4>
+                                <p class="text-sm text-gray-400">Produk untuk berbagai kebutuhan personal hingga korporat.</p>
+                            </div>
+                        </div>
+                        <!-- Benefit Item -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-vibrantOrange/20 flex items-center justify-center text-vibrantOrange shrink-0 border border-vibrantOrange/30">
+                                <i class="fa-solid fa-ruler-combined text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-warmWhite font-bold mb-1">Konsultasi Bahan</h4>
+                                <p class="text-sm text-gray-400">Bantuan memilih ukuran dan material yang tepat sasaran.</p>
+                            </div>
+                        </div>
+                        <!-- Benefit Item -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-vibrantOrange/20 flex items-center justify-center text-vibrantOrange shrink-0 border border-vibrantOrange/30">
+                                <i class="fa-solid fa-pen-nib text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-warmWhite font-bold mb-1">Cek Spesifikasi</h4>
+                                <p class="text-sm text-gray-400">Pengecekan resolusi file sebelum masuk mesin cetak.</p>
+                            </div>
+                        </div>
+                        <!-- Benefit Item -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-electricPurple/20 flex items-center justify-center text-electricPurple shrink-0 border border-electricPurple/30">
+                                <i class="fa-solid fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-warmWhite font-bold mb-1">Estimasi Jelas</h4>
+                                <p class="text-sm text-gray-400">Informasi waktu pengerjaan yang transparan di awal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mengapa Memilih Kami -->
+    <section class="py-20 bg-gray-50 border-t border-b border-gray-200">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="reveal">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-darkPurple mb-6">Mengapa Memilih Kami?</h2>
+                    <p class="text-gray-600 mb-8 text-lg">Kami berkomitmen memberikan hasil cetak terbaik dengan alur kerja yang efisien untuk mendukung bisnis lokal di Palangka Raya.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-electricPurple text-xl"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h4 class="font-bold text-darkPurple text-lg">Konsultasi Kebutuhan Cetak</h4>
+                                <p class="text-gray-600 text-sm">Tim kami siap membantu merekomendasikan bahan yang sesuai dengan budget dan tujuan Anda.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-electricPurple text-xl"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h4 class="font-bold text-darkPurple text-lg">Spesifikasi & Penawaran Jelas</h4>
+                                <p class="text-gray-600 text-sm">Tidak ada biaya tersembunyi. Anda akan menerima rincian biaya sebelum produksi dimulai.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="mt-1 text-electricPurple text-xl"><i class="fa-solid fa-circle-check"></i></div>
+                            <div>
+                                <h4 class="font-bold text-darkPurple text-lg">Pemesanan Fleksibel</h4>
+                                <p class="text-gray-600 text-sm">Dukung skala bisnis Anda, mulai dari cetak satuan hingga pesanan massal korporat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative reveal">
+                    <div class="absolute inset-0 bg-electricPurple rounded-3xl transform translate-x-4 translate-y-4 opacity-20"></div>
+                    <img src="gambarasset/Foto1.webp" alt="Tim Percetakan Profesional" class="relative rounded-3xl shadow-xl w-full object-cover h-[500px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Cara pesan dipindah di bagian akhir sebelum FAQ -->
+    <section class="py-20 bg-warmWhite" id="cara-pesan">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-darkPurple mb-4">Cara Pesan Cetakan Anda</h2>
+                <p class="text-gray-600">Proses mudah dan transparan dari awal hingga pesanan siap diambil.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative reveal">
+                <!-- Desktop connecting line -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-200 -z-10 -translate-y-1/2"></div>
+                <div class="hidden md:block absolute top-1/2 left-0 w-1/2 h-0.5 bg-electricPurple -z-10 -translate-y-1/2 transition-all duration-1000 ease-in-out" id="progress-line" style="width: 0%;"></div>
+
+                <!-- Step 1 -->
+                <div class="relative bg-white p-6 rounded-2xl shadow-soft text-center border border-gray-100 h-full flex flex-col items-center">
+                    <div class="w-14 h-14 bg-darkPurple text-warmWhite rounded-full flex items-center justify-center text-xl font-bold shadow-lg mb-4 ring-4 ring-white">
+                        1
+                    </div>
+                    <h3 class="text-lg font-bold text-darkPurple mb-2">Pilih Produk</h3>
+                    <p class="text-sm text-gray-600">Tentukan kebutuhan cetak, ukuran, dan kuantitas yang Anda perlukan.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative bg-white p-6 rounded-2xl shadow-soft text-center border border-gray-100 h-full flex flex-col items-center mt-0 md:mt-8">
+                    <div class="w-14 h-14 bg-electricPurple text-warmWhite rounded-full flex items-center justify-center text-xl font-bold shadow-lg mb-4 ring-4 ring-white">
+                        2
+                    </div>
+                    <h3 class="text-lg font-bold text-darkPurple mb-2">Kirim Desain</h3>
+                    <p class="text-sm text-gray-600">Upload file siap cetak atau konsultasikan spesifikasi dengan tim kami via WhatsApp.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative bg-white p-6 rounded-2xl shadow-soft text-center border border-gray-100 h-full flex flex-col items-center">
+                    <div class="w-14 h-14 bg-vibrantOrange text-warmWhite rounded-full flex items-center justify-center text-xl font-bold shadow-lg mb-4 ring-4 ring-white">
+                        3
+                    </div>
+                    <h3 class="text-lg font-bold text-darkPurple mb-2">Konfirmasi</h3>
+                    <p class="text-sm text-gray-600">Sepakati rincian bahan, harga, dan estimasi waktu pengerjaan sebelum produksi.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative bg-white p-6 rounded-2xl shadow-soft text-center border border-gray-100 h-full flex flex-col items-center mt-0 md:mt-8">
+                    <div class="w-14 h-14 bg-green-500 text-warmWhite rounded-full flex items-center justify-center text-xl font-bold shadow-lg mb-4 ring-4 ring-white">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-darkPurple mb-2">Produksi & Ambil</h3>
+                    <p class="text-sm text-gray-600">Pesanan diproses secara profesional dan siap diambil di studio kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galeri Dihapus dari sini karena sudah pindah ke atas -->
+
+    <section class="py-20 bg-gray-50 border-t border-gray-200" id="faq">
+        <div class="container mx-auto px-4 lg:px-8 max-w-4xl">
+            <div class="text-center mb-12 reveal">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-darkPurple mb-4">Pertanyaan Seputar Layanan</h2>
+                <p class="text-gray-600">Informasi yang sering ditanyakan oleh pelanggan kami.</p>
+            </div>
+
+            <div class="space-y-4 reveal">
+                <!-- FAQ 1 -->
+                <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none bg-white hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-darkPurple">Apakah bisa mencetak dalam jumlah kecil (satuan)?</span>
+                        <i class="fa-solid fa-chevron-down text-electricPurple transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white text-gray-600 px-6">
+                        <p class="pb-4 pt-1">Bisa. Kami melayani cetak digital tanpa minimum order untuk produk tertentu seperti poster atau lembaran A3+. Namun, untuk produk offset atau kemasan khusus, mungkin terdapat minimum order yang akan kami informasikan saat konsultasi.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none bg-white hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-darkPurple">Bagaimana format file desain yang harus dikirim?</span>
+                        <i class="fa-solid fa-chevron-down text-electricPurple transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white text-gray-600 px-6">
+                        <p class="pb-4 pt-1">Kami menyarankan pengiriman file dalam format PDF High Quality, CorelDraw (CDR), Adobe Illustrator (AI), atau gambar resolusi tinggi (JPG/PNG minimal 300dpi) dengan format warna CMYK agar hasil cetak maksimal.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none bg-white hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-darkPurple">Berapa lama waktu pengerjaan pesanan?</span>
+                        <i class="fa-solid fa-chevron-down text-electricPurple transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white text-gray-600 px-6">
+                        <p class="pb-4 pt-1">Waktu pengerjaan bergantung pada jenis produk dan kuantitas. Cetak digital standar (seperti banner atau flyer sedikit) bisa selesai dalam 1-2 hari kerja. Untuk cetak offset jumlah besar memakan waktu 3-7 hari kerja setelah desain disetujui.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+                    <button class="accordion-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none bg-white hover:bg-gray-50 transition-colors">
+                        <span class="font-bold text-darkPurple">Apakah tersedia jasa desain jika saya belum punya?</span>
+                        <i class="fa-solid fa-chevron-down text-electricPurple transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white text-gray-600 px-6">
+                        <p class="pb-4 pt-1">Ya, kami menyediakan jasa desain dasar untuk menyesuaikan template atau memperbaiki layout agar siap cetak. Silakan hubungi admin kami untuk konsultasi biaya dan waktu desain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-warmWhite" id="kontak">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 reveal">
+                <!-- Location Info -->
+                <div class="p-8 lg:p-12 flex flex-col justify-center">
+                    <span class="text-electricPurple font-bold tracking-wider text-sm mb-2 uppercase">Kunjungi Kami</span>
+                    <h2 class="text-3xl font-extrabold text-darkPurple mb-6">Lokasi Studio & Kontak</h2>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center text-vibrantOrange shrink-0 mt-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-darkPurple">Alamat Studio</h4>
+                                <p class="text-gray-600 text-sm mt-1">Jl. Tjilik Riwut Km 2.5<br>Palangka Raya, Kalimantan Tengah 73111</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center text-vibrantOrange shrink-0 mt-1">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-darkPurple">Hubungi (WhatsApp)</h4>
+                                <p class="text-gray-600 text-sm mt-1">0895-2960-5601<br>Senin - Sabtu (08:00 - 17:00 WIB)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/6289529605601" target="_blank" class="inline-flex items-center justify-center gap-2 bg-vibrantOrange text-warmWhite px-6 py-3.5 rounded-xl font-bold hover:bg-orange-600 transition shadow-lg shadow-orange-500/30">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> Chat Admin Sekarang
+                    </a>
+                </div>
+
+                <!-- Google Maps (Palangka Raya) -->
+                <div class="h-[400px] lg:h-auto w-full bg-gray-200">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=Palangka%20Raya%2C%20Kalimantan%20Tengah&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Peta Lokasi CetakKarya Studio">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="py-20 bg-darkPurple text-center relative overflow-hidden">
+        <!-- Abstract Decoration -->
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1562664377-709f2c337eb2?auto=format&fit=crop&q=80&w=1920')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-darkPurple via-darkPurple/80 to-transparent"></div>
+        
+        <div class="container mx-auto px-4 relative z-10 reveal">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-warmWhite mb-6">Siap Mewujudkan <span class="text-vibrantOrange">Ide Cetak Anda?</span></h2>
+            <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-10">Konsultasikan kebutuhan cetak Anda dan temukan pilihan produk yang sesuai dengan kebutuhan bisnis maupun personal Anda hari ini.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/6289529605601" target="_blank" class="inline-flex items-center justify-center gap-2 bg-vibrantOrange text-warmWhite px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-xl shadow-orange-500/40">
+                    <i class="fa-brands fa-whatsapp"></i> Konsultasi via WhatsApp
+                </a>
+                <a href="#katalog" class="inline-flex items-center justify-center bg-transparent border-2 border-warmWhite/30 text-warmWhite px-8 py-4 rounded-full font-bold text-lg hover:bg-warmWhite/10 hover:border-warmWhite transition">
+                    Lihat Katalog Produk
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#0A001C] pt-16 pb-8 border-t border-white/10">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 text-gray-400">
+                <!-- Brand Info -->
+                <div>
+                    <a href="#" class="flex items-center gap-2 mb-6">
+                        <img src="gambarasset/logonew.webp" alt="Logo CetakKarya" class="h-10 w-auto object-contain rounded px-1">
+                        <span class="text-xl font-bold text-[#FF5733]">CetakKarya</span>
+                    </a>
+                    <p class="text-sm leading-relaxed mb-6">Solusi percetakan digital dan offset profesional di Palangka Raya. Mengutamakan kualitas, ketepatan waktu, dan pelayanan terbaik untuk setiap pelanggan.</p>
+                    <div class="flex gap-4">
+                        <a href="https://www.instagram.com/solusilokal.id/" target="_blank" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-vibrantOrange hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@solusilokal.id" target="_blank" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-vibrantOrange hover:text-white transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://wa.me/6289529605601" target="_blank" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-vibrantOrange hover:text-white transition-colors"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-warmWhite font-bold mb-6">Navigasi</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#" class="hover:text-vibrantOrange transition">Beranda</a></li>
+                        <li><a href="#galeri" class="hover:text-vibrantOrange transition">Portofolio</a></li>
+                        <li><a href="#katalog" class="hover:text-vibrantOrange transition">Produk</a></li>
+                        <li><a href="#layanan" class="hover:text-vibrantOrange transition">Layanan</a></li>
+                        <li><a href="#cara-pesan" class="hover:text-vibrantOrange transition">Cara Pesan</a></li>
+                        <li><a href="#faq" class="hover:text-vibrantOrange transition">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Products -->
+                <div>
+                    <h4 class="text-warmWhite font-bold mb-6">Kategori Produk</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#katalog" class="hover:text-vibrantOrange transition">Kartu Nama</a></li>
+                        <li><a href="#katalog" class="hover:text-vibrantOrange transition">Brosur & Flyer</a></li>
+                        <li><a href="#katalog" class="hover:text-vibrantOrange transition">Banner & Spanduk</a></li>
+                        <li><a href="#katalog" class="hover:text-vibrantOrange transition">Stiker Label</a></li>
+                        <li><a href="#katalog" class="hover:text-vibrantOrange transition">Corporate Gift</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-warmWhite font-bold mb-6">Hubungi Kami</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1 text-electricPurple"></i>
+                            <span>Jl. Tjilik Riwut Km 2.5<br>Palangka Raya, Kalteng</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-electricPurple"></i>
+                            <span>0895-2960-5601</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+                <p>&copy; <span id="year"></span> CetakKarya Studio. Hak cipta dilindungi undang-undang.</p>
+                <p>Dikembangkan oleh <a href="https://www.solusilokal.id/" target="_blank" rel="noopener noreferrer" class="text-vibrantOrange hover:text-white transition font-medium">SolusiLokal</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set dynamic year in footer
+            document.getElementById('year').textContent = new Date().getFullYear();
+
+            // Mobile Menu Toggle
+            const btn = document.getElementById('mobile-menu-btn');
+            const menu = document.getElementById('mobile-menu');
+            const icon = btn.querySelector('i');
+
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                if (menu.classList.contains('hidden')) {
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                } else {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                }
+            });
+
+            // Sticky Navbar Background
+            const navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 20) {
+                    navbar.classList.add('shadow-md');
+                } else {
+                    navbar.classList.remove('shadow-md');
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        menu.classList.add('hidden'); // Close mobile menu on click
+                        icon.classList.remove('fa-xmark');
+                        icon.classList.add('fa-bars');
+                        
+                        const navHeight = navbar.offsetHeight;
+                        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - navHeight;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // FAQ Accordion Logic
+            const accordionBtns = document.querySelectorAll('.accordion-btn');
+            accordionBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    const isOpen = content.style.maxHeight;
+
+                    // Close all open accordions
+                    document.querySelectorAll('.accordion-content').forEach(c => {
+                        c.style.maxHeight = null;
+                        c.previousElementSibling.querySelector('i').style.transform = 'rotate(0deg)';
+                    });
+
+                    // If it wasn't open, open it
+                    if (!isOpen) {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+
+            // Scroll Reveal Animation using Intersection Observer
+            const revealElements = document.querySelectorAll('.reveal');
+            
+            const revealOptions = {
+                threshold: 0.15,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const revealOnScroll = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // Stop observing once revealed
+                });
+            }, revealOptions);
+
+            revealElements.forEach(el => {
+                // Remove active class initially (in case JS loads after some elements are visible)
+                // Let CSS handle the initial state
+                revealOnScroll.observe(el);
+            });
+
+            // Simple progress line animation for "How it Works" section
+            const progressLine = document.getElementById('progress-line');
+            if(progressLine) {
+                const howItWorksSection = document.getElementById('cara-pesan');
+                const progressObserver = new IntersectionObserver((entries) => {
+                    if(entries[0].isIntersecting) {
+                        setTimeout(() => {
+                            progressLine.style.width = '100%'; // Extend to connect the dots
+                        }, 500);
+                        progressObserver.disconnect();
+                    }
+                }, { threshold: 0.5 });
+                progressObserver.observe(howItWorksSection);
+            }
+        });
+    </script>
+</body>
+</html>
